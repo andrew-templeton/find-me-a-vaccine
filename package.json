@@ -7,8 +7,8 @@
     "build": "rm -rf ./.next ./_next/ ./out; next build",
     "start": "next start",
     "export": "next export",
-    "deploy": "aws --profile personal --region us-east-1 s3 cp --cache-control 'public, max-age=86400, s-maxage=86400' --recursive ./out/ s3://findmeavaccine-web/ && npm run deploy:raw",
-    "deploy:raw": "node copyToRaw && aws --profile personal --region us-east-1 s3 cp --recursive --content-type 'text/html' --cache-control 'public, max-age=300, s-maxage=300' ./out/raw/ s3://findmeavaccine-web/",
+    "deploy": "aws --profile personal --region us-east-1 s3 cp --cache-control 'public, max-age=86400, s-maxage=86400' --recursive --exclude index.html ./out/ s3://findmeavaccine-web/ && npm run deploy:raw",
+    "deploy:raw": "node copyToRaw && aws --profile personal --region us-east-1 s3 cp --recursive --content-type 'text/html' --cache-control 'public, max-age=300, s-maxage=300' ./out/raw/ s3://findmeavaccine-web/ && aws --profile personal --region us-east-1 s3 cp --content-type 'text/html' --cache-control 'public, max-age=300, s-maxage=300' ./out/index.html s3://findmeavaccine-web/index.html",
     "kick": "npm run build && npm run export && npm run deploy"
   },
   "dependencies": {
