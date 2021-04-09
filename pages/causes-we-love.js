@@ -83,10 +83,10 @@ const content = {
       </>
     },
     {
-      title: 'Texas Rally For Life',
+      title: 'All-Options Pregnancy Resource Center',
       copy: <>
-        <p>Governor Abbot says of the event: "As adoptive parents ourselves, Cecilia and I know firsthand the weight placed on mothers facing these difficult decisions. We were present when Audrey’s birth mother decided to have her baby, went to every doctor’s appointment with her, and were there at the hospital the day Audrey was born. Protecting innocent life remains important to us because we have seen this life-changing decision in action, and we know how this decision turns vulnerability and fear into beauty and love."</p>
-        <p><a href="http://www.texasrallyforlife.org/">Visit Their Cause Here</a></p>
+        <p>All-Options Pregnancy Resource Center (PRC) is a program of All-Options (formerly Backline), a national nonprofit organization that has been providing unconditional support and promoting reproductive justice since 2004. All-Options uses direct service and social change strategies to promote unconditional, judgment-free support for people in all of their decisions, feelings, and experiences with pregnancy, parenting, abortion, and adoption. We recognize that these issues are complex, but one thing is certain: Everyone deserves to have all options.</p>
+        <p><a href="https://alloptionsprc.org/">Visit Their Cause Here</a></p>
       </>
     },
     {

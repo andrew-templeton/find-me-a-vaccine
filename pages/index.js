@@ -19,6 +19,14 @@ const content = {
       link: '/how-to-book'
     },
     {
+      title: 'I Need Help',
+      link: '/i-need-help'
+    },
+    {
+      title: 'Necesito Ayuda',
+      link: '/necesito-ayuda'
+    },
+    {
       title: 'Additional Resources',
       link: '/resources'
     },
@@ -33,7 +41,23 @@ const content = {
     {
       title: 'Causes We Love',
       link: '/causes-we-love'
-    }
+    },
+    {
+      title: 'Vaxxie Source Code',
+      link: 'https://github.com/andrew-templeton/vaxxie'
+    },
+    {
+      title: 'Tip The Vaxxie Author',
+      link: 'https://vaxxie.me'
+    },
+    {
+      title: 'Privacy Policy',
+      link: '/privacy-policy'
+    },
+    {
+      title: 'Política de Privacidad',
+      link: '/politica-de-privacidad'
+    },
   ]
 }
 
